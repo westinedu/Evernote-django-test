@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'everto',                      # Or path to database file if using sqlite3.
+        'NAME': 'D:\GitHub\Evernote-django-test\evernoteapp\evertodo.db',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -147,9 +147,9 @@ LOGGING = {
 }
 
 # Set these in settingslocal.py
-EVERNOTE_HOST = ""
-EVERNOTE_KEY = ""
-EVERNOTE_SECRET = ""
+EVERNOTE_HOST = "www.evernote.com"
+EVERNOTE_KEY = "westine"
+EVERNOTE_SECRET = "277e8b3a8cc49b2d"
 EVERNOTE_OAUTH_TOKEN_VALIDITY = 1 # OAuth token validity in days: 1 for dev,
                                   # 365 for prod after activation
 
